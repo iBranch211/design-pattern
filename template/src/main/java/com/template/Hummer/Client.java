@@ -11,8 +11,7 @@ import java.io.InputStreamReader;
  */
 public class Client {
 	public static void main(String[] args) throws IOException {
-		System.out.println("-------H1    --------");
-		System.out.println("H1              0-    1-  ");
+		System.out.println("-------H1--------");
 		String type="0";
 //		String type = (new BufferedReader(new InputStreamReader(System.in))).toString();
 		HummerH1Model h1 = new HummerH1Model();
@@ -21,7 +20,7 @@ public class Client {
 			h1.setAlarm(false);
 		}
 		h1.run();
-		System.out.println("\n-------H2    --------");
+		System.out.println("\n-------H2--------");
 		HummerH2Model h2 = new HummerH2Model();
 		h2.run();
 	}

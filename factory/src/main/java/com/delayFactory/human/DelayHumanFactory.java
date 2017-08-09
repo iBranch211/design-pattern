@@ -14,7 +14,7 @@ import com.factory.human.YellowHuman;
  *扩展后可以限制某个实例的个数可应用于数据库连接
  */
 public class DelayHumanFactory {
-	private static final Map<String, Human> prMap = new HashMap<>();
+	private static final Map<String, Human> prMap = new HashMap<String, Human>();
 
 	public static synchronized Human createHuman(String type) {
 		Human human = null;
