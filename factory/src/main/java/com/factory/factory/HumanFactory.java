@@ -1,4 +1,6 @@
-package com.factory.human;
+package com.factory.factory;
+
+import com.factory.human.Human;
 
 /**
  * 创建人类工厂，进行创建人类
@@ -11,9 +13,8 @@ public class HumanFactory extends AbstractHumanFactory {
 	/**
 	 * 生产一个人类
 	 */
-	@SuppressWarnings({ "unchecked" })
 	@Override
-	public <T extends Human> T creatHuman(Class<T> T) {
+	public <T extends Human> T createHuman(Class<T> T) {
 		// 定义一个人钟
 		Human human = null;
 		try {

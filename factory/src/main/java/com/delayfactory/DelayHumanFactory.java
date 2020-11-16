@@ -1,4 +1,4 @@
-package com.delayFactory.human;
+package com.delayfactory;
 
 import java.util.HashMap;
 import java.util.Map;

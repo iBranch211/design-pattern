@@ -1,4 +1,4 @@
-package com.abstractFactory.human;
+package com.abstractfactory.human;
 
 /**
  * 生产黄种人

@@ -1,8 +1,9 @@
-package com.abstractFactory.human;
+package com.abstractfactory.factory;
 
-import com.abstractFactory.human.sex.MaleBlackHuman;
-import com.abstractFactory.human.sex.MaleWhiteHuman;
-import com.abstractFactory.human.sex.MaleYellowHuman;
+import com.abstractfactory.human.Human;
+import com.abstractfactory.human.sex.MaleBlackHuman;
+import com.abstractfactory.human.sex.MaleWhiteHuman;
+import com.abstractfactory.human.sex.MaleYellowHuman;
 
 /**
  * 生产男人工厂
@@ -11,7 +12,6 @@ import com.abstractFactory.human.sex.MaleYellowHuman;
  */
 public class MaleFactory implements HumanFatory{
 
-　
 	@Override
 	public Human createYellowHuman() {
 		return new MaleYellowHuman();

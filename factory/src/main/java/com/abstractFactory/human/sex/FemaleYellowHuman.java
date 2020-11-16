@@ -1,6 +1,6 @@
-package com.abstractFactory.human.sex;
+package com.abstractfactory.human.sex;
 
-import com.abstractFactory.human.AbstractYellowHuman;
+import com.abstractfactory.human.AbstractYellowHuman;
 
 /**
  * 女黄种人

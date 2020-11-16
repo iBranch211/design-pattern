@@ -1,4 +1,9 @@
-package com.abstractFactory.human;
+package com.abstractfactory;
+
+import com.abstractfactory.factory.FemaleFactory;
+import com.abstractfactory.human.Human;
+import com.abstractfactory.factory.HumanFatory;
+import com.abstractfactory.factory.MaleFactory;
 
 public class Nvwa {
 
@@ -7,12 +12,15 @@ public class Nvwa {
 		HumanFatory maleFactory = new MaleFactory();
 		// 第二条生产线，生产女性
 		HumanFatory femaleFactory = new FemaleFactory();
+
 		Human maleYellowHuman = maleFactory.createYellowHuman();
 		Human femaleYellowHuman = femaleFactory.createYellowHuman();
+
 		System.out.println("\n\n产生黄人男性－－－－－－－－－－－－－－－－－－－－－－－－－－");
 		maleYellowHuman.getColor();
 		maleYellowHuman.getSex();
 		maleYellowHuman.talk();
+
 		System.out.println("\n产生黄人美女－－－－－－－－－－－－－－－－－－－－－－－－－－");
 		femaleYellowHuman.getColor();
 		femaleYellowHuman.getSex();

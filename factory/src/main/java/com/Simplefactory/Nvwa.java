@@ -1,5 +1,6 @@
-package com.Simplefactory.human;
+package com.simplefactory;
 
+import com.simplefactory.human.HumanFactory;
 import com.factory.human.BlackHuman;
 import com.factory.human.Human;
 import com.factory.human.WhiteHuman;
@@ -15,7 +16,7 @@ public class Nvwa {
 	public static void main(String[] args) {
 		//我就一个八卦炉，所以不用生产八卦炉了。
 		System.out.println("由于火候不够造出白种人");
-		Human whiteHuman=HumanFactory.createHuman(WhiteHuman.class);
+		Human whiteHuman= HumanFactory.createHuman(WhiteHuman.class);
 		whiteHuman.getColor();
 		whiteHuman.talk();
 		

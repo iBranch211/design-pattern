@@ -1,4 +1,6 @@
-package com.abstractFactory.human;
+package com.abstractfactory.factory;
+
+import com.abstractfactory.human.Human;
 
 /**
  * 创造人的工厂

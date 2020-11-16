@@ -1,4 +1,4 @@
-package com.manyFactory.human;
+package com.manyfactory.factory;
 
 import com.factory.human.BlackHuman;
 import com.factory.human.Human;

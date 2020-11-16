@@ -1,4 +1,4 @@
-package com.Simplefactory.human;
+package com.simplefactory.human;
 
 import com.factory.human.Human;
 
@@ -10,7 +10,6 @@ import com.factory.human.Human;
  *         只有一个工厂，
  */
 public class HumanFactory {
-    @SuppressWarnings("unchecked")
     public static <T extends Human> T createHuman(Class<T> T) {
         Human human = null;
         try {

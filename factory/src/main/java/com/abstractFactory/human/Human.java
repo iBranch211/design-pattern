@@ -1,15 +1,14 @@
-package com.abstractFactory.human;
+package com.abstractfactory.human;
 
 /**
  * 抽象工厂模式
- * 
- * @author yangyibo
  *
+ * @author yangyibo
  */
 public interface Human {
-	public void getColor();
+    void getColor();
 
-	public void talk();
+    void talk();
 
-	public void getSex();
+    void getSex();
 }
